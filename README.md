@@ -1,2 +1,2 @@
-# magiles1
+# Métodos Ágiles
 Repositorio práctica TDD
