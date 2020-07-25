@@ -5,11 +5,6 @@ public class Libro {
 	private String name;
 	private String categoria;
 
-	public Libro() {
-		this.codigo = codigo;
-		this.name = name;
-		this.categoria = categoria;
-	}
 	public Libro(int codigo, String name, String categoria) {
 		
 		this.codigo = codigo;
