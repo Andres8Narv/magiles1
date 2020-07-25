@@ -3,21 +3,21 @@ package ec.edu.epn.model;
 public class Libro {
 	private int codigo;
 	private String name;
-	private String categoria;
+	private String category;
 
 	public Libro(int codigo, String name, String categoria) {
 		
 		this.codigo = codigo;
 		this.name = name;
-		this.categoria = categoria;
+		this.category = categoria;
 	}
 
 	public String getCategoria() {
-		return categoria;
+		return category;
 	}
 
 	public void setCategoria(String categoria) {
-		this.categoria = categoria;
+		this.category = categoria;
 	}
 
 	public int getCodigo() {
@@ -38,7 +38,7 @@ public class Libro {
 	
 	@Override
 	public String toString() {
-		return "" + this.codigo + ". " + this.name + "\t\t\t\t Categoria: " + this.categoria;
+		return "" + this.codigo + ". " + this.name + "\t\t\t\t Categoria: " + this.category;
 	}
 
 
